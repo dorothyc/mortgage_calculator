@@ -19,7 +19,8 @@ http://127.0.0.1:5000/mortgage-amount?payment_amount=449.13&payment_schedule=mon
 
 
 
-## Run the unit tests with command:
+## Run the unit tests
+run the unit tests with command:
 `pytest test_mortgage_calc.py`
 
 
