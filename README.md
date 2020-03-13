@@ -5,19 +5,16 @@
 
 git clone the project to working directory e.g. mortgage_calculator
 
-navigate to the working directory
-
+navigate to the working directory  
 `cd mortgage_calculator`
 
 
-install Flask using pip
-
+install Flask using pip  
 `pip install Flask`
 
 
 ## Run the Application
-run the Flask application 
-
+run the Flask application  
 `python api.py`
 
 access the endpoints by going to the local host
@@ -28,8 +25,7 @@ http://127.0.0.1:5000/mortgage-amount?payment_amount=449.13&payment_schedule=mon
 
 
 ## Run the unit tests
-run the unit tests
-
+run the unit tests  
 `pytest test_mortgage_calc.py`
 
 
