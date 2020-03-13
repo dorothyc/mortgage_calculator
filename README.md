@@ -1,12 +1,15 @@
 # Mortgage Calculator
  Create a mortgage calculator API using Flask and RESTful APIs
 
-## Git clone the project
+## Set UP
 
 git clone the project to working directory e.g. mortgage_calculator
 
 navigate to the working directory 
 `cd mortgage_calculator`
+
+install Flask using pip
+`pip install Flask`
 
 ## Run the Application
 run the Flask application with command:
