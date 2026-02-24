@@ -8,14 +8,19 @@ git clone the project to working directory e.g. mortgage_calculator
 navigate to the working directory  
 `cd mortgage_calculator`
 
+(optional) create a virtual environment in Python (helps isolate the project)
+`python3 -m venv .venv`
 
-install Flask using pip  
-`pip install Flask`
+activate the virtual environment
+`source .venv/bin/activate` # If using linux shell/macOS
+`.venv\Scripts\activate` # If using windows powershell
 
+(required)install Flask using pip3 (for Python 3)  
+`pip3 install Flask`
 
 ## Run the Application
 run the Flask application  
-`python api.py`
+`python3 api.py`
 
 access the endpoints by going to the local host
 
